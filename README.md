@@ -6,3 +6,4 @@ This talk and the following code samples borrow heavily from [Eve Porcello](http
 #### Steps
 1. [Define our contractor and product type types and add our first query](https://github.com/akuttruff/graphql-rf-demo-api/tree/create-initial-types-and-queries)
 1. [Create a mutation to add a new contractor or product type](https://github.com/akuttruff/graphql-rf-demo-api/tree/add-mutations)
+1. [Add a query to find a specific contractor or product type](https://github.com/akuttruff/graphql-rf-demo-api/tree/add-query-by-id)

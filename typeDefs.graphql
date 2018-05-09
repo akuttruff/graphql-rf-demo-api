@@ -12,6 +12,8 @@ type ProductType {
 type Query {
     allContractors: [Contractor]
     allProductTypes: [ProductType]
+    Contractor(id: ID!): Contractor
+    ProductType(id: ID!): ProductType
 }
 
 type Mutation {
