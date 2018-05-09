@@ -1,15 +1,20 @@
 type Contractor {
-    id: ID!
-    name: String,
+    id: String
+    name: String
 }
 
 type ProductType {
-    id: ID!
-    name: String,
+    id: String
+    name: String
     description: String
 }
 
 type Query {
     allContractors: [Contractor]
     allProductTypes: [ProductType]
+}
+
+type Mutation {
+    addContractor(id: String, name: String): Contractor
+    addProductType(id: String, name: String, description: String): ProductType
 }

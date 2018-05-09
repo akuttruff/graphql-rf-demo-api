@@ -6,16 +6,16 @@ const typeDefs = fs.readFileSync('./typeDefs.graphql', 'UTF-8');
 const context = {
   contractors: [
     {
-      name: "Amie",
-      id: "abc123"
+      id: "abc123",
+      name: "Amie"
     },
     {
-      name: "Elise",
-      id: "def456"
+      id: "def456",
+      name: "Elise"
     },
     {
-      name: "Chappy",
-      id: "ghi789"
+      id: "ghi789",
+      name: "Chappy"
     }
   ],
   productTypes: [
@@ -46,7 +46,7 @@ server.express.get('/', (req, res) => {
 const options = {
   port: 4000,
   endpoint: '/graphql',
-  playground: '/playground'
+  playground: '/demo'
 };
 
 const ready = ({ port }) => console.log(`graph service running - http://localhost:${port}`);
