@@ -1,0 +1,13 @@
+{
+  "name": "graphql-rf-demo-api",
+  "version": "0.0.0",
+  "description": "Sample GraphQL service for Renew Financial tech talk",
+  "main": "index.js",
+  "repository": "https://github.com/akuttruff/graphql-rf-demo-api",
+  "author": "Amie Kuttruff",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {}
+}
