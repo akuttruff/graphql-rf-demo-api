@@ -9,5 +9,7 @@
   "scripts": {
     "start": "node index"
   },
-  "dependencies": {}
+  "dependencies": {
+    "graphql-yoga": "1.13.1"
+  }
 }

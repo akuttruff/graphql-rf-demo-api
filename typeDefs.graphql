@@ -1,0 +1,15 @@
+type Contractor {
+    id: ID!
+    name: String,
+}
+
+type ProductType {
+    id: ID!
+    name: String,
+    description: String
+}
+
+type Query {
+    allContractors: [Contractor]
+    allProductTypes: [ProductType]
+}
